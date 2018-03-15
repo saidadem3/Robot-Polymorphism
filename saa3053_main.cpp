@@ -60,19 +60,19 @@ int main()
 		cout << endl << endl;
 
 		Robot *mrRobot333 = new Extendable_Arm(1002, "The Extendable Arm", 100, 10, 30, 15);
-	mrRobot333->move(3, 3);
-	mrRobot333->pick_up(10);
-	mrRobot333->move(5, 5);
-	mrRobot333->drop();
-	mrRobot333->move(15, 15);
-	mrRobot333->pick_up(10);
-	mrRobot333->move(16, 16);
-	mrRobot333->drop();
-	mrRobot333->move(5, 5);
-	mrRobot333->pick_up(9);
-	mrRobot333->move(15, 15);
-	mrRobot333->drop();
-	mrRobot333->move(25, 25);
+		mrRobot333->move(3, 3);
+		mrRobot333->pick_up(10);
+		mrRobot333->move(5, 5);
+		mrRobot333->drop();
+		mrRobot333->move(15, 15);
+		mrRobot333->pick_up(10);
+		mrRobot333->move(16, 16);
+		mrRobot333->drop();
+		mrRobot333->move(5, 5);
+		mrRobot333->pick_up(9);
+		mrRobot333->move(15, 15);
+		mrRobot333->drop();
+		mrRobot333->move(25, 25);
 
 
 		Powered_Arm mrRobot5(1003, "The Powered Arm", 100, 10, 30, 55);
@@ -90,3 +90,5 @@ int main()
 
 		return 0;
 }
+
+/*ahmad is gay*/
