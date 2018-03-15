@@ -18,46 +18,5 @@
     <ClCompile Include="saa3053_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="saa3053_Arm_Robot.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="saa3053_Extendable_Arm.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="saa3053_Mobile_Robot.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="saa3053_Powered_Arm.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="saa3053_Robot.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-    <ClCompile Include="saa3053_Super_Arm.cpp">
-      <Filter>Resource Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="saa3053_Arm_Robot.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="saa3053_Extendable_Arm.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="saa3053_Powered_Arm.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="saa3053_Robot.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="saa3053_Mobile_Robot.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="saa3053_Super_Arm.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="saa3053_Mobile_Arm.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>

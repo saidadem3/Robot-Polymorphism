@@ -115,22 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="saa3053_Arm_Robot.cpp" />
-    <ClCompile Include="saa3053_Extendable_Arm.cpp" />
     <ClCompile Include="saa3053_main.cpp" />
-    <ClCompile Include="saa3053_Mobile_Robot.cpp" />
-    <ClCompile Include="saa3053_Powered_Arm.cpp" />
-    <ClCompile Include="saa3053_Robot.cpp" />
-    <ClCompile Include="saa3053_Super_Arm.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="saa3053_Arm_Robot.h" />
-    <ClInclude Include="saa3053_Extendable_Arm.h" />
-    <ClInclude Include="saa3053_Mobile_Arm.h" />
-    <ClInclude Include="saa3053_Mobile_Robot.h" />
-    <ClInclude Include="saa3053_Powered_Arm.h" />
-    <ClInclude Include="saa3053_Robot.h" />
-    <ClInclude Include="saa3053_Super_Arm.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
