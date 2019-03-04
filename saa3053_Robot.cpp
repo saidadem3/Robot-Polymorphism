@@ -35,4 +35,9 @@ double Robot::get_battery_percentage()
 		return percentage;
 }
 
+string Robot::get_type() 
+{
+		return type;
+}
+
 

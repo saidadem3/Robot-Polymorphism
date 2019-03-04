@@ -22,6 +22,7 @@ public:
 		void charge();
 		double get_battery_percentage();
 		string get_name();
+		string get_type();
 
 protected:
 		int model_number;
@@ -29,6 +30,7 @@ protected:
 		int battery_life;
 		int battery_level;
 		pair<int, int> position;
+		string type;
 };
 
 #endif

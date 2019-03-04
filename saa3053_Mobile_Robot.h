@@ -4,7 +4,7 @@
 
 #include "saa3053_Arm_Robot.h"
 
-class Mobile_Robot : public Robot
+class Mobile_Robot : public virtual Robot
 {
 public:
 		Mobile_Robot(int mn, string n, int bl) : Robot{ mn, n, bl } 
@@ -13,6 +13,7 @@ public:
 				position.second = 0;
 				battery_level = bl;
 				set_speed_level(1);
+				type = "Mobile_Robot";
 		};
 		bool move(int x, int y);
 		bool move(int x, int y, int speed);

@@ -1,7 +1,7 @@
 #ifndef ARM_ROBOT_H
 #define ARM_ROBOT_H
 #include "saa3053_Robot.h"
-class Arm_Robot : public Robot
+class Arm_Robot : public virtual Robot
 {
 public:
 		Arm_Robot(int mn, string n, int bl, int l, int wl) : Robot{mn,n,bl}, length{ l }, weight_limit{ wl } 
@@ -10,8 +10,9 @@ public:
 				position.second = 0;
 				battery_level = bl;
 				is_holding = false;
+				type = "Arm_Robot";
 		};
-		bool move(int x, int y);
+		bool virtual move(int x, int y);
 		bool pick_up(int weight);
 		bool drop();
 
